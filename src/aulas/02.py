@@ -14,3 +14,7 @@ print(subString)
 argumento = "moedaorigem=real"
 listargumento = argumento.split('=')
 print(listargumento)
+
+url = "pagina?argumentos"
+indice = url.find("?")
+print(url[indice + 1:] )
