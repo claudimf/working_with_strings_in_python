@@ -21,6 +21,9 @@ class ExtratorArgumentosUrl():
         representacaoString = 'Valor: {}\n Moeda Origem: {} \n Moeda Destino: {} \n'.format(self.extraiValor(), moedaOrigem, moedaDestino)
         return representacaoString
 
+    def __eq__(self, outraInstancia):
+        return self.url == outraInstancia.url
+
     def extraiArgumentos(self):
 
         buscaMoedaOrigem = "moedaorigem="
