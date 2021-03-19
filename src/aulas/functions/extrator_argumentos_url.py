@@ -7,7 +7,7 @@ class ExtratorArgumentosUrl():
 
     @staticmethod
     def urlEhValida(url):
-        if url:
+        if url and url.startswith("https://www.bytebank.com"):
             return True
         else:
             return False
