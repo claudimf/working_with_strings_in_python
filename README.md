@@ -137,3 +137,5 @@ docker-compose down && docker-compose up
 # Referências utilizadas
 
 [1° Conteinerização de scripts em Python](https://github.com/claudimf/containerized_python)
+
+[2° Regular expression operations](https://docs.python.org/3/library/re.html)
