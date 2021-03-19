@@ -12,6 +12,15 @@ class ExtratorArgumentosUrl():
         else:
             return False
 
+    def __len__(self):
+        return len(self.url)
+
+    def __str__(self):
+        moedaOrigem, moedaDestino = self.extraiArgumentos()
+        # representacaoString2 = "Valor: " + self.extraiValor() + " " + moedaOrigem + " " + moedaDestino
+        representacaoString = 'Valor: {}\n Moeda Origem: {} \n Moeda Destino: {} \n'.format(self.extraiValor(), moedaOrigem, moedaDestino)
+        return representacaoString
+
     def extraiArgumentos(self):
 
         buscaMoedaOrigem = "moedaorigem="
