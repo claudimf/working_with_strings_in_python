@@ -9,11 +9,3 @@ print(argumentosUrl)
 moedaOrigem, moedaDestino = argumentosUrl.extraiArgumentos()
 
 print(moedaOrigem, moedaDestino)
-
-# url = None
-# argumento = ExtratorArgumentosUrl(url)
-# print(argumento)
-
-# url = ''
-# argumento = ExtratorArgumentosUrl(url)
-# print(argumento)
