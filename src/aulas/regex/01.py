@@ -26,6 +26,3 @@ print(retorno)
 
 retorno = re.search(padrao, email6)
 print(retorno.group())
-
-
-str
