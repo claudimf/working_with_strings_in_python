@@ -86,6 +86,11 @@ Para executar um script python, faça conforme o exemplo abaixo:
 docker-compose run --rm app python aulas/01.py
 ```
 
+## Listar pacotes:
+```sh
+docker-compose run --rm app pipdeptree
+```
+
 ## Sobre o projeto:
 
 ### Permissões de arquivos:

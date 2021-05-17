@@ -1,0 +1,5 @@
+# Mostrar a árvore de pacotes
+pipdeptree==2.0.0
+
+# Demais bibliotecas
+requests==2.25.1
